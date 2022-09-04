@@ -1,10 +1,10 @@
   steps:
-  - label: ":hammer: Tests"
+  - label: ":label: Tests"
     command: ".buildkite/test1.sh"
 
   - wait
 
-  - label: ":package: Package"
+  - label: ":rocket:"
     command: "bash .buildkite/test2.sh"
     artifact_paths: "pkg/*"
 
