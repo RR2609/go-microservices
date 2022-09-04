@@ -8,17 +8,9 @@
     command: "bash .buildkite/test2.sh"
     artifact_paths: "pkg/*"
 
-
   - wait
 
   - label: ":debian: Publish"
     command: ".buildkite/test3.sh"
-    branches: "master"
-
-
-  - wait
-
-  - label: ":whale: Update images"
-    command: "echo We reached here! Finally"
     branches: "master"
 
