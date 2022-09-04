@@ -4,7 +4,7 @@
 
   - wait
 
-  - label: ":package: Package"
+  - label: ":rocket: Package"
     command: "bash .buildkite/test2.sh"
     artifact_paths: "pkg/*"
 
